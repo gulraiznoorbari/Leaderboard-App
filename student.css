@@ -1,0 +1,114 @@
+.studentInfo {
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.left {
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.right {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+
+h2.studentName {
+    margin: 0px;
+    padding: 0px;
+}
+
+p.university {
+    margin: 0px;
+    padding: 0px;
+}
+.subheading {
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+    border-bottom: 1px solid #F0F0F0;
+    font-size: 18px;
+}
+
+p.subheading1 {
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+p.subheading2 {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+
+p.university {
+    color: grey;
+    font-size: 15px;
+}
+p.university span {
+    background: green;
+    color: white;
+    line-height: 18px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 6px;
+    border-radius: 3px;
+}
+
+h1.leaderBoard {
+    font-size: 30px;
+}
+
+.score {
+    font-size: 36px;
+    font-weight: bold;
+    color: green;
+}
+
+button.addScoreBtn {
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    text-align: center;
+    position: relative;
+    top: -3px;
+    cursor: pointer;
+    left: 7px;
+}
+button.addScoreBtn:hover {
+    background: green;
+}
+button.decreaseScoreBtn {
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    text-align: center;
+    position: relative;
+    top: -3px;
+    cursor: pointer;
+    left: 8px;
+}
+button.decreaseScoreBtn:hover {
+    background: green;
+}
+
+
